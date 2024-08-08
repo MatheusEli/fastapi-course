@@ -1,0 +1,73 @@
+# Ignore the virtual environment directory
+venv-fastapi/
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# FastAPI
+*.env
+
+# Virtual environments
+ENV/
+ENV.bak/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.out
+*.err
+
+# Testing
+.tox/
+.nox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Bandit
+.bandit/
+
+# Docker
+*.stackdump
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+*.db
+db.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# MacOS
+.DS_Store
+
+# Other
+*.log

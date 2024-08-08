@@ -1,0 +1,13 @@
+POST http://localhost:8000/bands/
+Content-Type: application/json
+
+{
+    "name": "Orv",
+    "genre": "Synthwave",
+    "albums": [
+        {
+            "title": "Hello World",
+            "release_date": "2024-08-08"
+        }
+    ]
+}
